@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anurag Mule - Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+
+<body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <!-- <img src="img/p.jpg" alt="" class="img"> -->
+
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Anurag Mule">Anurag Mule</h1>
+                    <p class="title">Software Developer</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <i class='bx bx-envelope' style='color:#ffd700' id="icon-box"></i>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a type="email" class="contact-link">anuragmule73@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <i class='bx bx-mobile-alt' style='color:#ffd700' id="icon-box"></i>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+919325012428" class="contact-link">+91 9325012428</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <i class='bx bx-calendar' style='color:#ffd700' id="icon-box"></i>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1982-06-23">April 13, 2002</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <i class='bx bx-location-plus' style='color:#ffd700' id="icon-box"></i>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Nagpur , Maharashtra , India</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/anurag-mule-8811bb216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank" class="social-link">
+
+                            <i class='bx bxl-linkedin-square' style='color:#edf3f4'></i>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://github.com/JackSparrooow" class="social-link">
+                            <i class='bx bxl-github' style='color:#edf3f4'></i>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/invites/contact/?igsh=1rm20j07hwg1f&utm_content=8ey0ye4"
+                            class="social-link">
+                            <i class='bx bxl-instagram' style='color:#edf3f4'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+            <!--
+        - #NAVBAR
+      -->
+
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link>About</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+
+                    <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>   -->
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+                </ul>
+            </nav>
+
+            <!--
+        - #ABOUT
+      -->
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        As a Full stack website developer, I specialize in a diverse tech stack
+                        including <strong>JavaScript frameworks</strong> such as
+                        <strong>React Js</strong>, <strong>Node.js</strong>,
+                        <strong>Express.js</strong>, and
+                        My proficiency extends to databases like
+                        <strong>MongoDB and Mongoose</strong>, including css frameworks like
+                        <strong>Tailwind css</strong> and
+                        <strong>Bootstrap</strong>
+                    </p>
+
+                    <p>
+                        With extensive knowledge of Web development best practices and a desire to create engaging Web
+                        applications, I am a versatile and innovative Web app developer. I can take on any challenge and
+                        deliver high-quality products that meet clients' requirements.
+
+                    </p>
+                </section>
+
+                <!--
+          - service
+        -->
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="img/icon-design.svg" alt="design icon" width="40" />
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Frontend Development</h4>
+
+                                <p class="service-item-text">
+                                    modern and responsive user interfaces using
+                                    <strong>JavaScript</strong> and
+                                    <strong>HTML5-CSS</strong> with <strong>React.js</strong>.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="img/icon-dev.svg" alt="Web development icon" width="40" />
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Backend Development</h4>
+
+                                <p class="service-item-text">
+                                    Building robust backend systems and APIs using
+                                    <strong>Node.js</strong> and
+                                    <strong>Express.js</strong> with <strong>REST APIs.</strong>
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="img/icon-app.svg" alt="mobile app icon" width="40" />
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Full-stack Development</h4>
+
+                                <p class="service-item-text">
+                                    Developing full-stack applications using
+                                    <strong>JavaScript</strong> and
+                                    <strong>ReactJs</strong> with <strong>MongoDB</strong>,for
+                                    database management.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="img/icon-photo.svg" alt="camera icon" width="40" />
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">
+                                    Code Reviews and Optimization
+                                </h4>
+
+                                <p class="service-item-text">
+                                    Conducting code reviews and optimizing application
+                                    performance for enhanced user experience.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!--
+          - testimonials
+        -->
+
+                <section class="testimonials">
+                    <h3 class="h3 testimonials-title">Projects</h3>
+                    <ul class="testimonials-list has-scrollbar">
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                                    Generative AI Web App Gemini Clone
+                                </h4>
+                                <time style="color: bisque" data-project-time-text>
+                                    July 2024 - present
+                                </time>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        I am currently working on the comprehensive rewrite of
+                                        with our existing infrastructure. My main focus is
+                                        <strong>optimizing architecture to leverage API for
+                                            efficient data exchange</strong>
+                                        and elevate user experience. Additionally, I've been
+                                        instrumental in implementing
+                                        <strong>Gemini rest Api to clone My project </strong>
+                                    </p>
+                                </div>
+                                <div data-modules-1-text style="display: none">
+                                    <div data-modules-2-text style="display: none">
+                                        <p>
+                                            Implemented google gemini Api to get responce for user input.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div data-tech-stack-text style="display: none">
+                                    <p>
+                                        <strong>HTML5, CSS, React js
+                                        </strong>
+                                    </p>
+                                </div>
+                                <div class="project-link" data-project-link-text style="display: none">
+
+                                    <a href="https://gemini-clone-anup.vercel.app/" target="_blank">Project</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                                    Portfolio
+                                </h4>
+                                <time style="color: bisque" data-project-time-text>
+                                    Dec-2023 - June-2024
+                                </time>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p style="font-size: 90%">
+                                        Build own Portfolio with using teck stack HTML5, CSS, JavaScript<br />
+                                    </p>
+                                </div>
+                                <div data-modules-1-text style="display: none">
+                                    <div data-modules-2-text style="display: none;">
+                                        <p>
+                                            Implemented own Portfolio for improving skillsets and i have very much intrest in frontend developing. 
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div data-tech-stack-text style="display: none">
+                                    <p>
+                                        <strong>HTML5, css, JavaScript
+                                        </strong>
+                                    </p>
+                                </div>
+
+                                <div class="project-link" data-project-link-text style="display: none">
+                                    <a href="https://portfolio-anup-nu.vercel.app/" target="_blank">Project</a>
+                                </div>
+                            </div>
+                        </li>
+
+                </section>
+
+                <!--
+          - testimonials modal
+        -->
+
+                <div class="modal-container" data-modal-container>
+                    <div class="overlay" data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title></h4>
+
+                            <time datetime="2021-06-14" data-model-project-time-text></time>
+
+                            <div data-modal-text>
+
+                            </div>
+
+                            <div class="project-details-card">
+                                <ul>
+                                    <li>
+                                        <strong>Tech Stack:</strong>
+                                        <ul>
+                                            <li data-model-tech-stack-text></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <strong>Modules:</strong>
+                                        <ul>
+                                            <li data-model-modules-1-text>Module A</li>
+                                            <li data-model-modules-2-text>Module A</li>
+                                        </ul>
+                                    </li>
+                                    <div class="project-link" style="display: flex;">
+                                        <strong>Project Link:</strong>
+                                        <a href="YOUR_PROJECT_LINK_HERE" target="_blank" data-model-project-link-text
+                                            style="padding-left: 5px;">Project</a>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+                </section>
+
+                <!--
+          - clients
+        -->
+            </article>
+
+            <!--
+        - #RESUME
+      -->
+
+            <article class="resume" data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <!-- <ion-icon name="book-outline"></ion-icon> -->
+                            <i class='bx bx-book' style='color:#ffd700' id="icon-box"></i>
+
+                        </div>
+
+                        <h3 class="h3">Experience & Courses</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Software Developer</h4>
+                            <span><strong>July 2023 - Present - 1 year </strong></span>
+                            <ul class="timeline-text">
+                                <li>
+                                    <strong>PW Skills Full Stack Web Devlopement - (Pursuing)</strong>
+                                    specializing in scalable web applications using
+                                    <strong> JavaScript, React Js, Redux Toolkit, Node Js</strong>.
+                                </li>
+                                <li>
+                                    Experienced in designing and implementing RESTful APIs using
+                                    <strong>Express.js</strong>.
+                                </li>
+                                <li>
+                                    Experienced in designing and implementing Backend in
+                                    <strong>MongoDB</strong>.
+                                </li>
+                                <li>
+                                    Proficient in Frontend Using <strong>HTML5</strong> including
+                                    <strong>CSS, Bootstrap, Tailwind CSS</strong> for efficient
+                                    UI.
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <!-- <ion-icon name="book-outline"></ion-icon> -->
+                            <i class='bx bx-book' style='color:#ffd700' id="icon-box"></i>
+
+                        </div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                Abha Gaikwad Patil College Of Engineering Mohgaon (Nagpur).
+                            </h4>
+                            <span>Bachelor of Engineering</span>
+                            <span>2019 — 2023 </span>
+
+                            <p class="timeline-text">
+                                Here Leveraged theoretical knowledge and practical skills to
+                                develop innovative solutions, demonstrating proficiency in the
+                                Software. The program equipped me with a comprehensive
+                                understanding of IT principles and practices, preparing me for
+                                a dynamic career in the technology industry.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                R.S Bidkar Junior college , Hinganghat , Maharashtra.
+                            </h4>
+                            <span>HSC</span>
+                            <span> 2019</span>
+
+                            <p class="timeline-text">
+                                Excelled in subjects , demonstrating a strong foundation in
+                                academic knowledge and essential skills. The HSC experience
+                                equipped me with critical thinking abilities, time management
+                                skills, and the capability to tackle challenges effectively,
+                                preparing me for the next phase of academic and professional
+                                growth.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                Sanjay Gandhi Smurti Vidyalaya Hinganghat
+                            </h4>
+                            <span>SSC</span>
+                            <span> 2017</span>
+
+                            <p class="timeline-text">
+                                The SSC journey laid a solid groundwork for academic
+                                excellence and personal development, preparing me for future
+                                endeavors with confidence and determination.
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web design</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">JavaScript</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 70%"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Node.js</h5>
+                                <data value="90">65%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 75%"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Express.js</h5>
+                                <data value="80">65%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 70%"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">React.js</h5>
+                                <data value="75">75%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 75%"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Firebase</h5>
+                                <data value="75">70%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 75%"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Git & Github</h5>
+                                <data value="80">85%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 85%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <!--
+        - #CONTACT
+      -->
+
+            <article class="contact" data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required
+                                data-form-input />
+
+                            <input type="email" name="email" class="form-input" placeholder="Email address" required
+                                data-form-input />
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required
+                            data-form-input></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="portfolio.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
